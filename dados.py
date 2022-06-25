@@ -1,2 +1,2 @@
-user = '1234'
-senha = '1234'
+user = 'RU'
+senha = 'Senha'

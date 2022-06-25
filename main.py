@@ -16,4 +16,5 @@ while True:
         break
 
 navegador.find_element(By.NAME, "ru").send_keys(user)
-navegador.find_element((By.XPATH, "//input[@id='senha']"))
+navegador.find_element(By.XPATH, "//input[@id='senha']").send_keys(senha)
+navegador.find_element(By.ID, "loginBtn").click()
